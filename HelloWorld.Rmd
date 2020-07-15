@@ -1,0 +1,11 @@
+---
+title: "HelloWorld"
+author: "sidgosavi"
+date: "15/07/2020"
+output: word_document
+---
+
+```{r }
+HelloWorld <- read.csv("~/HelloWorld.md", sep="")
+summary(HelloWorld)
+```
